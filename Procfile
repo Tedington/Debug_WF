@@ -1,1 +1,1 @@
-web: gunicorn WalletFriendlyRoot.wsgi --log-file -
+web: gunicorn WalletFriendlyRoot.wsgi:app --log-file -
